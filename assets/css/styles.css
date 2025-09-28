@@ -78,6 +78,11 @@ a:hover{opacity:.85}
 @media (max-width: 1024px){.cards{grid-template-columns:repeat(2,1fr)}}
 @media (max-width: 560px){.cards{grid-template-columns:1fr}}
 
+/* Services (non-card) */
+.service{border-left:6px solid var(--color-navy); padding-left:12px}
+.service-list{margin:12px 0 0; padding:0 0 0 16px}
+.service-item{margin:4px 0}
+
 /* Feature rows */
 .feature{display:grid; grid-template-columns:1fr 1fr; gap:24px; align-items:center}
 .feature:nth-child(even){direction:rtl}
