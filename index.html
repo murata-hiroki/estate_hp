@@ -114,7 +114,7 @@
     <div class="container">
       <h2 class="section-title">代表メッセージ</h2>
       <div class="feature">
-        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop" alt="代表の写真" loading="lazy" width="400" height="400" style="border-radius:12px">
+        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop" alt="代表の写真" loading="lazy" width="400" height="400">
         <div>
           <h3>一人ひとりに寄り添う、不動産のプロフェッショナル</h3>
           <p>「安心して相談できる相手でありたい」その想いで、誠実で丁寧なご案内を心がけています。宅建士としての専門知識と、[地域名]での豊富な実績で、理想の住まい探しを全力でサポートします。</p>
@@ -130,8 +130,8 @@
         <h2 class="section-title">管理物件の空室状況</h2>
         <a class="see-all" href="/services.html">すべて見る</a>
       </div>
-      <div class="props">
-        <article class="prop-card">
+      <div class="props" aria-live="polite">
+        <article class="prop-card" role="article">
           <div class="prop-card__img">
             <img src="https://page.gensparksite.com/v1/base64_upload/4c4e7e0b03696e4e7e8a0437b0366a22" alt="物件写真1">
             <div class="prop-card__chips">
@@ -147,7 +147,7 @@
           <div class="prop-card__meta">北沢エリア | 駅徒歩8分</div>
         </article>
 
-        <article class="prop-card">
+        <article class="prop-card" role="article">
           <div class="prop-card__img">
             <img src="https://page.gensparksite.com/v1/base64_upload/4c4e7e0b03696e4e7e8a0437b0366a22" alt="物件写真2">
             <div class="prop-card__chips">
@@ -163,7 +163,7 @@
           <div class="prop-card__meta">自由が丘駅 徒歩21分</div>
         </article>
 
-        <article class="prop-card">
+        <article class="prop-card" role="article">
           <div class="prop-card__img">
             <img src="https://page.gensparksite.com/v1/base64_upload/4c4e7e0b03696e4e7e8a0437b0366a22" alt="物件写真3">
             <div class="prop-card__chips">
@@ -179,7 +179,7 @@
           <div class="prop-card__meta">浅草駅 徒歩9分</div>
         </article>
 
-        <article class="prop-card">
+        <article class="prop-card" role="article">
           <div class="prop-card__img">
             <img src="https://page.gensparksite.com/v1/base64_upload/4c4e7e0b03696e4e7e8a0437b0366a22" alt="物件写真4">
             <div class="prop-card__chips">
@@ -194,6 +194,264 @@
           <div class="prop-card__meta">神奈川県平塚市 | 1K | 21.1㎡</div>
           <div class="prop-card__meta">平塚駅 徒歩11分</div>
         </article>
+
+        <!-- duplicated items to reach ~20 -->
+        <article class="prop-card" role="article">
+          <div class="prop-card__img">
+            <img src="https://images.unsplash.com/photo-1505691723518-36a5ac3b2b8f?q=80&w=1200&auto=format&fit=crop" alt="物件写真5">
+            <div class="prop-card__chips">
+              <span class="chip">即入居可</span>
+              <span class="chip">宅配ボックス</span>
+            </div>
+            <button class="wish" aria-label="お気に入りに追加">♡</button>
+          </div>
+          <h3>街を少し高いところから</h3>
+          <div class="prop-card__price"><strong>88,000円</strong> 管理費 7,000円</div>
+          <div class="prop-card__meta">敷 1ヶ月　礼 1ヶ月　更新 1.1ヶ月</div>
+          <div class="prop-card__meta">東京都杉並区 | 1K | 25.80㎡</div>
+          <div class="prop-card__meta">荻窪駅 徒歩9分</div>
+        </article>
+
+        <article class="prop-card" role="article">
+          <div class="prop-card__img">
+            <img src="https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?q=80&w=1200&auto=format&fit=crop" alt="物件写真6">
+            <div class="prop-card__chips">
+              <span class="chip">新築</span>
+              <span class="chip">浴室乾燥</span>
+            </div>
+            <button class="wish" aria-label="お気に入りに追加">♡</button>
+          </div>
+          <h3>扉を開けた瞬間の香り</h3>
+          <div class="prop-card__price"><strong>132,000円</strong> 管理費 12,000円</div>
+          <div class="prop-card__meta">敷 1ヶ月　礼 1ヶ月　更新 1.1ヶ月</div>
+          <div class="prop-card__meta">東京都練馬区 | 1LDK | 40.12㎡</div>
+          <div class="prop-card__meta">練馬駅 徒歩6分</div>
+        </article>
+
+        <article class="prop-card" role="article">
+          <div class="prop-card__img">
+            <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=1200&auto=format&fit=crop" alt="物件写真7">
+            <div class="prop-card__chips">
+              <span class="chip">角部屋</span>
+              <span class="chip">エレベーター</span>
+            </div>
+            <button class="wish" aria-label="お気に入りに追加">♡</button>
+          </div>
+          <h3>午後の静かな光</h3>
+          <div class="prop-card__price"><strong>101,000円</strong> 管理費 6,000円</div>
+          <div class="prop-card__meta">敷 なし　礼 1ヶ月　更新 1.1ヶ月</div>
+          <div class="prop-card__meta">東京都中野区 | 1DK | 28.40㎡</div>
+          <div class="prop-card__meta">中野駅 徒歩10分</div>
+        </article>
+
+        <article class="prop-card" role="article">
+          <div class="prop-card__img">
+            <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=1200&auto=format&fit=crop" alt="物件写真8">
+            <div class="prop-card__chips">
+              <span class="chip">追焚き</span>
+              <span class="chip">システムキッチン</span>
+            </div>
+            <button class="wish" aria-label="お気に入りに追加">♡</button>
+          </div>
+          <h3>風の通り道</h3>
+          <div class="prop-card__price"><strong>92,000円</strong> 管理費 4,000円</div>
+          <div class="prop-card__meta">敷 1ヶ月　礼 なし　更新 1.1ヶ月</div>
+          <div class="prop-card__meta">東京都板橋区 | 1LDK | 36.10㎡</div>
+          <div class="prop-card__meta">板橋本町駅 徒歩7分</div>
+        </article>
+
+        <article class="prop-card" role="article">
+          <div class="prop-card__img">
+            <img src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?q=80&w=1200&auto=format&fit=crop" alt="物件写真9">
+            <div class="prop-card__chips">
+              <span class="chip">リノベ済</span>
+              <span class="chip">独立洗面台</span>
+            </div>
+            <button class="wish" aria-label="お気に入りに追加">♡</button>
+          </div>
+          <h3>本を積み重ねる時間</h3>
+          <div class="prop-card__price"><strong>154,000円</strong> 管理費 10,000円</div>
+          <div class="prop-card__meta">敷 2ヶ月　礼 1ヶ月　更新 1.1ヶ月</div>
+          <div class="prop-card__meta">東京都目黒区 | 2DK | 48.30㎡</div>
+          <div class="prop-card__meta">学芸大学駅 徒歩13分</div>
+        </article>
+
+        <article class="prop-card" role="article">
+          <div class="prop-card__img">
+            <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1200&auto=format&fit=crop" alt="物件写真10">
+            <div class="prop-card__chips">
+              <span class="chip">ペット可</span>
+              <span class="chip">宅配ボックス</span>
+            </div>
+            <button class="wish" aria-label="お気に入りに追加">♡</button>
+          </div>
+          <h3>静かに眠る街</h3>
+          <div class="prop-card__price"><strong>128,000円</strong> 管理費 9,000円</div>
+          <div class="prop-card__meta">敷 1ヶ月　礼 1ヶ月　更新 1.1ヶ月</div>
+          <div class="prop-card__meta">東京都江東区 | 1LDK | 39.20㎡</div>
+          <div class="prop-card__meta">豊洲駅 徒歩12分</div>
+        </article>
+
+        <article class="prop-card" role="article">
+          <div class="prop-card__img">
+            <img src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c52f?q=80&w=1200&auto=format&fit=crop" alt="物件写真11">
+            <div class="prop-card__chips">
+              <span class="chip">南向き</span>
+              <span class="chip">二人入居可</span>
+            </div>
+            <button class="wish" aria-label="お気に入りに追加">♡</button>
+          </div>
+          <h3>雨上がりの香り</h3>
+          <div class="prop-card__price"><strong>110,000円</strong> 管理費 5,000円</div>
+          <div class="prop-card__meta">敷 1ヶ月　礼 なし　更新 1.1ヶ月</div>
+          <div class="prop-card__meta">東京都墨田区 | 1LDK | 34.50㎡</div>
+          <div class="prop-card__meta">錦糸町駅 徒歩10分</div>
+        </article>
+
+        <article class="prop-card" role="article">
+          <div class="prop-card__img">
+            <img src="https://images.unsplash.com/photo-1507086189233-4d250478b919?q=80&w=1200&auto=format&fit=crop" alt="物件写真12">
+            <div class="prop-card__chips">
+              <span class="chip">最上階</span>
+              <span class="chip">オートロック</span>
+            </div>
+            <button class="wish" aria-label="お気に入りに追加">♡</button>
+          </div>
+          <h3>遠くまで見渡せる朝</h3>
+          <div class="prop-card__price"><strong>140,000円</strong> 管理費 12,000円</div>
+          <div class="prop-card__meta">敷 2ヶ月　礼 1ヶ月　更新 1.1ヶ月</div>
+          <div class="prop-card__meta">東京都品川区 | 1LDK | 41.30㎡</div>
+          <div class="prop-card__meta">大井町駅 徒歩8分</div>
+        </article>
+
+        <article class="prop-card" role="article">
+          <div class="prop-card__img">
+            <img src="https://images.unsplash.com/photo-1449844908441-8829872d2607?q=80&w=1200&auto=format&fit=crop" alt="物件写真13">
+            <div class="prop-card__chips">
+              <span class="chip">宅配ボックス</span>
+              <span class="chip">浴室乾燥</span>
+            </div>
+            <button class="wish" aria-label="お気に入りに追加">♡</button>
+          </div>
+          <h3>夕暮れのワンシーン</h3>
+          <div class="prop-card__price"><strong>99,000円</strong> 管理費 6,000円</div>
+          <div class="prop-card__meta">敷 なし　礼 1ヶ月　更新 1.1ヶ月</div>
+          <div class="prop-card__meta">東京都江戸川区 | 1DK | 29.80㎡</div>
+          <div class="prop-card__meta">船堀駅 徒歩13分</div>
+        </article>
+
+        <article class="prop-card" role="article">
+          <div class="prop-card__img">
+            <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?q=80&w=1200&auto=format&fit=crop" alt="物件写真14">
+            <div class="prop-card__chips">
+              <span class="chip">角部屋</span>
+              <span class="chip">二面採光</span>
+            </div>
+            <button class="wish" aria-label="お気に入りに追加">♡</button>
+          </div>
+          <h3>白い壁と青い空</h3>
+          <div class="prop-card__price"><strong>118,000円</strong> 管理費 8,000円</div>
+          <div class="prop-card__meta">敷 1ヶ月　礼 1ヶ月　更新 1.1ヶ月</div>
+          <div class="prop-card__meta">東京都大田区 | 1LDK | 38.00㎡</div>
+          <div class="prop-card__meta">雪が谷大塚駅 徒歩9分</div>
+        </article>
+
+        <article class="prop-card" role="article">
+          <div class="prop-card__img">
+            <img src="https://images.unsplash.com/photo-1494451930944-8998635c3767?q=80&w=1200&auto=format&fit=crop" alt="物件写真15">
+            <div class="prop-card__chips">
+              <span class="chip">即入居可</span>
+              <span class="chip">追焚き</span>
+            </div>
+            <button class="wish" aria-label="お気に入りに追加">♡</button>
+          </div>
+          <h3>木漏れ日の廊下</h3>
+          <div class="prop-card__price"><strong>125,000円</strong> 管理費 7,000円</div>
+          <div class="prop-card__meta">敷 なし　礼 1ヶ月　更新 1.1ヶ月</div>
+          <div class="prop-card__meta">東京都北区 | 1LDK | 35.50㎡</div>
+          <div class="prop-card__meta">王子駅 徒歩11分</div>
+        </article>
+
+        <article class="prop-card" role="article">
+          <div class="prop-card__img">
+            <img src="https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?q=80&w=1200&auto=format&fit=crop" alt="物件写真16">
+            <div class="prop-card__chips">
+              <span class="chip">最上階</span>
+              <span class="chip">宅配ボックス</span>
+            </div>
+            <button class="wish" aria-label="お気に入りに追加">♡</button>
+          </div>
+          <h3>窓辺の観葉植物</h3>
+          <div class="prop-card__price"><strong>138,000円</strong> 管理費 12,000円</div>
+          <div class="prop-card__meta">敷 1ヶ月　礼 なし　更新 1.1ヶ月</div>
+          <div class="prop-card__meta">東京都世田谷区 | 1LDK | 40.20㎡</div>
+          <div class="prop-card__meta">下北沢駅 徒歩7分</div>
+        </article>
+
+        <article class="prop-card" role="article">
+          <div class="prop-card__img">
+            <img src="https://images.unsplash.com/photo-1500067759223-6f7e47d27f18?q=80&w=1200&auto=format&fit=crop" alt="物件写真17">
+            <div class="prop-card__chips">
+              <span class="chip">リノベ済</span>
+              <span class="chip">独立洗面台</span>
+            </div>
+            <button class="wish" aria-label="お気に入りに追加">♡</button>
+          </div>
+          <h3>窓の外の季節</h3>
+          <div class="prop-card__price"><strong>162,000円</strong> 管理費 10,000円</div>
+          <div class="prop-card__meta">敷 2ヶ月　礼 1ヶ月　更新 1.1ヶ月</div>
+          <div class="prop-card__meta">東京都渋谷区 | 1LDK | 43.80㎡</div>
+          <div class="prop-card__meta">代々木上原駅 徒歩8分</div>
+        </article>
+
+        <article class="prop-card" role="article">
+          <div class="prop-card__img">
+            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1200&auto=format&fit=crop" alt="物件写真18">
+            <div class="prop-card__chips">
+              <span class="chip">南向き</span>
+              <span class="chip">二人入居可</span>
+            </div>
+            <button class="wish" aria-label="お気に入りに追加">♡</button>
+          </div>
+          <h3>休日のブランチ</h3>
+          <div class="prop-card__price"><strong>115,000円</strong> 管理費 6,000円</div>
+          <div class="prop-card__meta">敷 1ヶ月　礼 1ヶ月　更新 1.1ヶ月</div>
+          <div class="prop-card__meta">東京都中央区 | 1DK | 31.20㎡</div>
+          <div class="prop-card__meta">人形町駅 徒歩6分</div>
+        </article>
+
+        <article class="prop-card" role="article">
+          <div class="prop-card__img">
+            <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1200&auto=format&fit=crop" alt="物件写真19">
+            <div class="prop-card__chips">
+              <span class="chip">駅近</span>
+              <span class="chip">オートロック</span>
+            </div>
+            <button class="wish" aria-label="お気に入りに追加">♡</button>
+          </div>
+          <h3>深呼吸する場所</h3>
+          <div class="prop-card__price"><strong>146,000円</strong> 管理費 11,000円</div>
+          <div class="prop-card__meta">敷 1ヶ月　礼 1ヶ月　更新 1.1ヶ月</div>
+          <div class="prop-card__meta">東京都新宿区 | 1LDK | 41.80㎡</div>
+          <div class="prop-card__meta">新宿三丁目駅 徒歩9分</div>
+        </article>
+
+        <article class="prop-card" role="article">
+          <div class="prop-card__img">
+            <img src="https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c?q=80&w=1200&auto=format&fit=crop" alt="物件写真20">
+            <div class="prop-card__chips">
+              <span class="chip">新築</span>
+              <span class="chip">宅配ボックス</span>
+            </div>
+            <button class="wish" aria-label="お気に入りに追加">♡</button>
+          </div>
+          <h3>朝の光の粒</h3>
+          <div class="prop-card__price"><strong>172,000円</strong> 管理費 15,000円</div>
+          <div class="prop-card__meta">敷 2ヶ月　礼 1ヶ月　更新 1.1ヶ月</div>
+          <div class="prop-card__meta">東京都港区 | 1LDK | 44.50㎡</div>
+          <div class="prop-card__meta">白金高輪駅 徒歩8分</div>
+        </article>
+
       </div>
     </div>
   </section>
